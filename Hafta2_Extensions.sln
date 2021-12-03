@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hafta2_Extensions_MVC", "Ha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{64C05460-7407-4D12-BB0F-33736A0B4147}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hafta2_Console_App", "Hafta2_Console_App\Hafta2_Console_App.csproj", "{AAF6D675-176F-48EA-9303-6A326C66CE59}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{64C05460-7407-4D12-BB0F-33736A0B4147}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64C05460-7407-4D12-BB0F-33736A0B4147}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64C05460-7407-4D12-BB0F-33736A0B4147}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAF6D675-176F-48EA-9303-6A326C66CE59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAF6D675-176F-48EA-9303-6A326C66CE59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAF6D675-176F-48EA-9303-6A326C66CE59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAF6D675-176F-48EA-9303-6A326C66CE59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
