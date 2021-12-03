@@ -58,7 +58,6 @@ namespace Hafta2_Extensions_MVC.CustomAttributes
             string remoteIpAddress = context.HttpContext.Connection.RemoteIpAddress.ToString();
             string remotePort = context.HttpContext.Connection.RemotePort.ToString();
             string protocol = context.HttpContext.Request.Protocol.ToString();
-            DateTime loginTime = DateTime.Now;
 
             return;
         }
