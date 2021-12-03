@@ -1,4 +1,5 @@
-﻿using Hafta2_Extensions_MVC.Models;
+﻿using Hafta2_Extensions_MVC.CustomAttributes;
+using Hafta2_Extensions_MVC.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -18,11 +19,16 @@ namespace Hafta2_Extensions_MVC.Controllers
             _logger = logger;
         }
 
+        // Parametreleri yollayarak kullanıcının yetksini kontrol ediyoruz.
+        // Bu attribute CustomAttributes klasörü içerisinde bulunuyor.
+        [LoginFilter("lebronjames@gmail.com", "123")]
         public IActionResult Index()
         {
             return View();
         }
 
+        // yetkili olmayan kullanıcı (Yani error sayfasına yönlendirilecek)
+        [LoginFilter("jokerjokic@gmail.com", "789")] 
         public IActionResult Privacy()
         {
             return View();
