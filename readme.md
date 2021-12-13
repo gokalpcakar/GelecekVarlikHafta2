@@ -1,4 +1,4 @@
-# Gelecek Varlık FullStack Bootcamp Ikinci Odevi
+# Gelecek Varlık FullStack Bootcamp Ikinci Hafta Odevi
 
 - Model içerisinde interface, interface'in kullanılacağı class, user class'ı ve extension oluşturuldu.
 - MVC projesi içerisinde ise LoginFilter attribute'u oluşturuldu.
